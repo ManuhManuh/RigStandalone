@@ -325,7 +325,7 @@ public class PlayerCharacterController : MonoBehaviour
         }
 
         float headRunInput = Mathf.Clamp01(Mathf.InverseLerp(_runMinHeadPeeksNumber, _runMaxHeadPeeksNumber, consecutiveAlternatePeeks));
-        Debug.Log($"headRunInput: {headRunInput}");
+        //Debug.Log($"headRunInput: {headRunInput}");
         return headRunInput;
     }
 
@@ -371,7 +371,7 @@ public class PlayerCharacterController : MonoBehaviour
 
         _prevLeftControllerPosition = leftControllerPosition;
         _prevRightControllerPosition = rightControllerPosition;
-        Debug.Log($"handsRunInput: {handsRunInput}");
+        //Debug.Log($"handsRunInput: {handsRunInput}");
         return handsRunInput;
     }
 
@@ -492,7 +492,7 @@ public class PlayerCharacterController : MonoBehaviour
             currentSpeed = Mathf.Lerp(_MinRunSpeed, _MaxRunSpeed, _runInput) * speedCoefficient;
 
         }
-        Debug.Log($"Returning speed: {currentSpeed}");
+        //Debug.Log($"Returning speed: {currentSpeed}");
         return currentSpeed;
     }
     private void CheckGround()
