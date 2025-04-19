@@ -76,7 +76,7 @@ namespace BNG {
 
             Rigidbody rb = GetComponent<Rigidbody>();
             if (rb && MinForceHit != 0) {
-                float zVel = System.Math.Abs(transform.InverseTransformDirection(rb.velocity).z);
+                float zVel = System.Math.Abs(transform.InverseTransformDirection(rb.linearVelocity).z);
 
                 // Minimum Force not achieved
                 if (zVel < MinForceHit) {
@@ -170,7 +170,7 @@ namespace BNG {
 
             // Velocity will be controlled in FixedUpdate
             if(rb != null) {
-                rb.velocity = Vector3.zero;
+                rb.linearVelocity = Vector3.zero;
             }
 
             IsLaserGuided = true;

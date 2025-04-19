@@ -1547,7 +1547,7 @@ namespace BNG {
 
             if(!setTrackingOrigin) {
                 List<XRInputSubsystem> subsystems = new List<XRInputSubsystem>();
-                SubsystemManager.GetInstances(subsystems);
+                SubsystemManager.GetSubsystems(subsystems);
                 int subSystemsCount = subsystems.Count;
 
                 if (subSystemsCount > 0) {

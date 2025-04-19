@@ -45,7 +45,7 @@ public class FootstepController : MonoBehaviour
             newPosition = playerRb.gameObject.transform.position;
             distanceMoved += Mathf.Abs((originalPosition - newPosition).magnitude);
 
-            if (Mathf.Abs(playerRb.velocity.magnitude) > 0 && distanceMoved >= paceLength && !currentlyPlayingStep)
+            if (Mathf.Abs(playerRb.linearVelocity.magnitude) > 0 && distanceMoved >= paceLength && !currentlyPlayingStep)
             {
                 //player has moved far enough to complete a step
                 distanceMoved = 0;

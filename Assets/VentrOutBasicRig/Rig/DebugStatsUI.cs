@@ -81,6 +81,6 @@ public class DebugStatsUI : MonoBehaviour
     {
         _DebugText.text += $"INPUT:\n";
         _DebugText.text += $"RUN: {playerCharacterController.RunInput:0.00}\n";
-        _DebugText.text += $"VELOCITY: {playerCharacterController.CurrentVelocity:0.00} Units/s\n";
+        _DebugText.text += $"VELOCITY: {playerCharacterController.currentSpeed:0.00} Units/s\n";
     }
 }
