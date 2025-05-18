@@ -1097,7 +1097,8 @@ ModelImporter:
     - name: LeftHandIndex4
       parentName: LeftHandIndex3
       position: {x: 0.00028335303, y: 0.027108952, z: -0.00002977252}
-      rotation: {x: 0.000000109896064, y: 0.00000029802322, z: -0.00000011920929, w: 1}
+      rotation: {x: 0.000000109896064, y: 0.00000029802322, z: -0.00000011920929,
+        w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: LeftHandIndex4_end
       parentName: LeftHandIndex4
@@ -1172,7 +1173,8 @@ ModelImporter:
     - name: LeftHandRing4
       parentName: LeftHandRing3
       position: {x: 0.000003375113, y: 0.020168532, z: 0.000012461096}
-      rotation: {x: -0.00000019447182, y: -0.0000030931556, z: -0.000000026077036, w: 1}
+      rotation: {x: -0.00000019447182, y: -0.0000030931556, z: -0.000000026077036,
+        w: 1}
       scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
     - name: LeftHandRing4_end
       parentName: LeftHandRing4
@@ -1337,7 +1339,8 @@ ModelImporter:
     - name: RightHandRing4
       parentName: RightHandRing3
       position: {x: -0.000086117536, y: 0.01959594, z: 0.0000028992072}
-      rotation: {x: -0.00000085774803, y: -0.0000014280084, z: -0.00000035914124, w: 1}
+      rotation: {x: -0.00000085774803, y: -0.0000014280084, z: -0.00000035914124,
+        w: 1}
       scale: {x: 1.0000001, y: 1, z: 1.0000001}
     - name: RightHandRing4_end
       parentName: RightHandRing4
